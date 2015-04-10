@@ -1,0 +1,36 @@
+########################
+# node.js / npm
+########################
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+lib/
+node_modules/*
+npm-debug.log
+
+
+########################
+# misc / editors
+########################
+*~
+*#
+.DS_STORE
+.netbeans
+nbproject
+.idea
+build
+
+public/images/coffee.mp4
+public/images/coffee.webm
+
+
