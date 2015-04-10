@@ -34,7 +34,7 @@ class FullString extends Component {
   }
 
   componentWillLeave(cb){
-    setTimeout(cb, this.props.duration + this.props.delay * this.props.string.length)
+    setTimeout(cb, (this.props.duration + this.props.delay * this.props.string.length) * 1000)
     this.setState({pos: 1})
   }
 
