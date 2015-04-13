@@ -46,7 +46,7 @@ class FullString extends Component {
     const {props, state} = this
 
     return (
-      <span style={styles}>
+      <span style={s(styles)}>
         { props.string.split('')
             .map((char, index) => {
 
@@ -59,7 +59,7 @@ class FullString extends Component {
 
 
               return (
-                <span key={props.string + char + index} style={charStyles}>
+                <span key={props.string + char + index} style={s(charStyles)}>
                   {char}
                 </span>
               )
